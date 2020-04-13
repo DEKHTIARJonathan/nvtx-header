@@ -14,8 +14,13 @@ __all__ = [
 ]
 
 _HEADER_DIR = "include"
+_GIT_COMMIT_ID = "c0d803c82c8f308766de07439d9897894bd2c085"
 _HEADERS_FILES = [
-    ("nvtx3.hpp", "https://raw.githubusercontent.com/jrhemstad/nvtx_wrappers/master/nvtx3.hpp")
+    (
+        "nvtx3.hpp",
+        "https://raw.githubusercontent.com/jrhemstad/nvtx_wrappers/" +
+        _GIT_COMMIT_ID + "/nvtx3.hpp"
+    )
 ]
 
 
